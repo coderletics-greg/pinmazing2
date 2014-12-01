@@ -1674,3 +1674,3239 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-28 15:11:38
 
 
 Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-28 15:11:38 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-29 15:07:51 +0000
+Processing by SitesController#index as HTML
+  Rendered sites/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 2549ms (Views: 2494.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-29 15:07:55 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-29 15:07:56 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-29 15:07:56 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-29 15:07:56 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-29 15:07:57 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-29 15:07:57 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-29 15:07:57 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-29 15:32:39 +0000
+Processing by SitesController#index as HTML
+  Rendered sites/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 657ms (Views: 655.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-29 15:32:40 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-29 15:32:40 +0000
+
+
+Started GET "/home" for 127.0.0.1 at 2014-11-29 15:32:49 +0000
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (63.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (286.0ms)
+
+
+Started GET "/page/home" for 127.0.0.1 at 2014-11-29 15:33:26 +0000
+
+ActionController::RoutingError (No route matches [GET] "/page/home"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (163.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2014-11-29 15:33:48 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 37ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-29 15:33:48 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-29 15:33:48 +0000
+
+
+Started GET "/pages/imprint" for 127.0.0.1 at 2014-11-29 15:33:52 +0000
+Processing by PagesController#imprint as HTML
+  Rendered pages/imprint.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 48ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-29 15:33:52 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-29 15:33:52 +0000
+
+
+Started GET "/pages/imprint" for 127.0.0.1 at 2014-11-29 15:51:22 +0000
+
+ActionController::RoutingError (No route matches [GET] "/pages/imprint"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (199.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-29 15:51:28 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 60ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-29 15:51:28 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-29 15:51:28 +0000
+
+
+Started GET "/imprint" for 127.0.0.1 at 2014-11-29 15:51:32 +0000
+Processing by PagesController#imprint as HTML
+  Rendered pages/imprint.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-29 15:51:32 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-29 15:51:32 +0000
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-11-29 16:00:41 +0000
+
+ActionController::RoutingError (No route matches [GET] "/contact"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (214.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-11-29 16:01:16 +0000
+
+AbstractController::ActionNotFound (The action 'contact' could not be found for PagesController):
+  actionpack (4.0.2) lib/abstract_controller/base.rb:131:in `process'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.2) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__211361505__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-11-29 16:01:42 +0000
+Processing by PagesController#contact as HTML
+Completed 500 Internal Server Error in 14ms
+
+ActionView::MissingTemplate (Missing template pages/contact, application/contact with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "C:/Users/Greg/Desktop/code/pinmazing2/app/views"
+):
+  actionpack (4.0.2) lib/action_view/path_set.rb:46:in `find'
+  actionpack (4.0.2) lib/action_view/lookup_context.rb:122:in `find'
+  C:in `find_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  actionpack (4.0.2) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.2) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.2) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.2) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  C:/row/Ruby21/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.0.2) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.2) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:403:in `_run__6409324__process_action__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.2) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.2) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.2) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.2) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.2) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.2) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.2) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.2) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.2) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.2) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.2) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.2) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__211361505__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (2.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-11-29 16:02:51 +0000
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-29 16:02:51 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-29 16:02:52 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-29 16:02:52 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-29 16:02:52 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-29 16:02:52 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-29 16:02:52 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-29 16:02:52 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-29 16:02:52 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-29 16:02:52 +0000
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-11-29 16:12:10 +0000
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 44ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-29 16:12:11 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:11 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:11 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-29 16:12:11 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-29 16:12:11 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:11 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:11 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:11 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:11 +0000
+
+
+Started GET "/home" for 127.0.0.1 at 2014-11-29 16:12:13 +0000
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (251.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-29 16:12:16 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:17 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-29 16:12:17 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:17 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-29 16:12:17 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-29 16:12:17 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:17 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:17 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:17 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:17 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-29 16:12:30 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-29 16:12:30 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-29 16:12:30 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:30 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:30 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:30 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-29 16:12:30 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:30 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:30 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-29 16:12:35 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 46ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-29 16:12:35 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:35 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:35 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:35 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:35 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:35 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-29 16:12:35 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-29 16:12:35 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-29 16:12:35 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-29 16:15:25 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 40ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-29 16:15:26 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-29 16:15:26 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-29 16:15:26 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-29 16:15:26 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-29 16:15:26 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-29 16:15:26 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-29 16:15:26 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-29 16:15:26 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-29 16:15:26 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-29 16:15:28 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/imprint" for 127.0.0.1 at 2014-11-29 16:15:29 +0000
+Processing by PagesController#imprint as HTML
+  Rendered pages/imprint.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 35ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-11-29 16:15:31 +0000
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 37ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/imprint" for 127.0.0.1 at 2014-11-29 16:15:56 +0000
+Processing by PagesController#imprint as HTML
+  Rendered pages/imprint.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-29 16:15:57 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 45ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/imprint" for 127.0.0.1 at 2014-11-29 16:20:45 +0000
+Processing by PagesController#imprint as HTML
+  Rendered pages/imprint.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 37ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/imprint" for 127.0.0.1 at 2014-11-29 16:58:22 +0000
+Processing by PagesController#imprint as HTML
+  Rendered pages/imprint.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 52ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-29 16:58:22 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-29 16:58:22 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-29 16:58:22 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-29 16:58:22 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-29 16:58:22 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-29 16:58:23 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-29 16:58:23 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-29 16:58:23 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-29 16:58:23 +0000
+
+
+Started GET "/imprint" for 127.0.0.1 at 2014-11-29 16:58:25 +0000
+Processing by PagesController#imprint as HTML
+  Rendered pages/imprint.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 41ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-29 16:58:27 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2014-11-29 16:58:27 +0000
+Processing by PagesController#contact as HTML
+  Rendered pages/contact.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 46ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-29 16:58:28 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-29 17:01:01 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 56ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-29 17:01:02 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-29 17:01:02 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-29 17:01:02 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-29 17:01:02 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-29 17:01:02 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-29 17:01:02 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-29 17:01:02 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-29 17:01:02 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-29 17:01:02 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 18:37:19 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (79.0ms)
+Completed 500 Internal Server Error in 2946ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (82.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (86.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (692.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 18:37:33 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 436ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (75.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (28.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (314.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 18:40:21 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (13.0ms)
+Completed 500 Internal Server Error in 202ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (27.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (162.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 18:50:58 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 173ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (13.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (142.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 18:53:41 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 200ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (115.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 18:53:57 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 114ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (108.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 19:08:08 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 111ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (118.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (569.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 19:08:38 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (8.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 261ms (Views: 247.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 19:08:39 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 19:08:39 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 19:08:40 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 19:08:40 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 19:08:40 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 19:08:41 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 19:08:41 +0000
+
+
+Started GET "/assets/bootstrap-sprockets" for 127.0.0.1 at 2014-11-30 19:08:41 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap-sprockets"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (35.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (44.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (338.0ms)
+
+
+Started GET "/assets/bootstrap" for 127.0.0.1 at 2014-11-30 19:08:41 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/row/Ruby21/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (22.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (25.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (195.0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 19:08:42 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 19:08:42 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 19:08:42 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 19:08:57 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 132ms (Views: 130.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 19:08:58 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 19:08:58 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 19:08:58 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 19:08:58 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 19:08:58 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 19:08:58 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 19:08:58 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 19:08:58 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 19:08:58 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 19:08:58 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 19:09:08 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 192ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (47.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (172.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 19:13:38 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 81ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (104.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 19:21:05 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 428ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (104.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 19:22:34 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 182ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:2)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:2
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (83.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (197.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 19:22:52 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 104ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap/variables.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:2)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/_bootstrap.scss:2
+  app/assets/stylesheets/custom.css.scss:2
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (106.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 19:23:42 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 114ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (120.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 19:24:18 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 94ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap/variables.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:2)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/_bootstrap.scss:2
+  app/assets/stylesheets/custom.css.scss:2
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (151.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 19:24:45 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 100ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap/variables.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:2)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/_bootstrap.scss:2
+  app/assets/stylesheets/custom.css.scss:2
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (107.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 19:25:21 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 717ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap/mixins.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:3)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/_bootstrap.scss:3
+  app/assets/stylesheets/custom.css.scss:2
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (105.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 19:25:36 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 190ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap/mixins.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:3)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/_bootstrap.scss:3
+  app/assets/stylesheets/custom.css.scss:2
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (105.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 19:25:38 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 155ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap/mixins.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:3)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/_bootstrap.scss:3
+  app/assets/stylesheets/custom.css.scss:2
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (107.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 19:25:57 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 995ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap/normalize.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:6)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/_bootstrap.scss:6
+  app/assets/stylesheets/custom.css.scss:2
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (105.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 19:27:14 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 114ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (149.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 19:32:37 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 119ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (116.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 19:32:48 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 103ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (39.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (147.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 20:13:57 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 164ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/images
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/javascripts
+  C:/Users/Greg/Desktop/code/pinmazing2/vendor/assets/stylesheets
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/turbolinks-2.5.2/lib/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/jquery-rails-3.1.2/vendor/assets/javascripts
+  C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/coffee-rails-4.0.1/lib/assets/javascripts
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:1)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:1
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1045384614_33461364'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (121.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 20:21:07 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 6618ms (Views: 6572.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 20:21:15 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 20:21:16 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 20:21:16 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:16 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:16 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 20:21:16 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:16 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:16 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:17 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:17 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:18 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:18 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:18 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:18 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:18 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:18 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:18 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:18 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:18 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:18 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:18 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:19 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:19 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 20:21:22 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 186ms (Views: 185.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 20:21:22 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 20:21:22 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:22 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:22 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:22 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:22 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 20:21:22 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 22:54:42 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 363ms (Views: 361.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 22:54:43 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 22:54:44 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-30 22:54:44 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 22:54:44 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 22:54:44 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 22:54:44 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-30 22:54:44 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-30 22:54:44 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-30 22:54:44 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-30 22:54:44 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-30 22:54:44 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-30 22:54:44 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-30 22:54:45 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-30 22:54:45 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-30 22:54:45 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-30 22:54:45 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-30 22:54:45 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-30 22:54:45 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 22:54:45 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 22:54:45 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 22:54:45 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 22:54:45 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 22:54:45 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 22:58:01 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 319ms (Views: 318.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 22:58:02 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 22:58:02 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 22:58:02 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 22:58:02 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-30 22:58:02 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 22:58:02 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-30 22:58:02 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-30 22:58:02 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-30 22:58:02 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-30 22:58:03 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-30 22:58:03 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-30 22:58:03 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-30 22:58:03 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-30 22:58:03 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-30 22:58:03 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-30 22:58:03 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-30 22:58:03 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-30 22:58:03 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 22:58:03 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 22:58:03 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 22:58:03 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 22:58:03 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 22:58:03 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 22:59:40 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 386ms (Views: 385.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 22:59:41 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 22:59:41 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 22:59:41 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 22:59:42 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-30 22:59:42 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 22:59:42 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-30 22:59:42 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-30 22:59:42 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-30 22:59:42 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-30 22:59:43 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-30 22:59:43 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-30 22:59:43 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-30 22:59:43 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-30 22:59:43 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-30 22:59:43 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-30 22:59:44 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-30 22:59:44 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-30 22:59:44 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 22:59:44 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 22:59:44 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 22:59:44 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 22:59:44 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 22:59:44 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 23:00:01 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 260ms (Views: 259.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 23:00:02 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 23:00:02 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 23:00:02 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-30 23:00:02 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 23:00:02 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 23:00:02 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-30 23:00:03 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-30 23:00:03 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-30 23:00:03 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-30 23:00:03 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-30 23:00:03 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-30 23:00:03 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-30 23:00:03 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-30 23:00:03 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-30 23:00:03 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-30 23:00:03 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-30 23:00:03 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-30 23:00:03 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 23:00:03 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 23:00:03 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 23:00:03 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 23:00:04 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 23:00:04 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 23:01:02 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 301ms (Views: 300.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:02 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 23:01:02 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:03 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 23:01:03 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 23:01:03 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:03 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 23:01:03 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:03 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:03 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:03 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:03 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:03 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:03 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:04 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:04 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:04 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:04 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:04 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:04 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:04 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:04 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:04 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:04 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 23:01:25 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 305ms (Views: 304.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:25 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 23:01:25 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 23:01:25 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:25 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:26 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 23:01:26 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:27 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:27 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 23:01:27 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:27 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:28 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:28 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:28 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:28 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:28 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:28 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:28 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:28 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:28 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:28 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:28 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:28 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 23:01:28 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 23:09:54 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 6178ms (Views: 6177.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 23:10:01 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 23:10:01 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 23:10:01 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-30 23:10:01 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 23:10:01 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 23:10:01 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-30 23:10:01 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-30 23:10:01 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-30 23:10:02 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-30 23:10:02 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-30 23:10:02 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-30 23:10:02 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-30 23:10:02 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-30 23:10:02 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-30 23:10:02 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-30 23:10:02 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-30 23:10:02 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-30 23:10:02 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 23:10:02 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 23:10:02 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 23:10:03 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 23:10:03 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 23:10:03 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 23:11:08 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 23:11:08 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 23:11:09 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 23:11:09 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 23:14:28 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 3214ms (Views: 3214.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 23:14:31 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 23:14:32 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 23:14:32 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-30 23:14:32 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 23:14:32 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-30 23:14:32 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-30 23:14:32 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-30 23:14:32 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-30 23:14:32 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-30 23:14:32 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 23:14:33 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-30 23:14:33 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-30 23:14:33 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-30 23:14:33 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-30 23:14:34 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-30 23:14:35 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-30 23:14:35 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-30 23:14:35 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 23:14:35 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 23:14:35 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 23:14:35 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 23:14:35 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 23:14:35 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 23:15:03 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 213ms
+
+ActionView::Template::Error (Invalid CSS after "	text-align": expected ";", was ":center;"
+  (in C:/Users/Greg/Desktop/code/pinmazing2/app/assets/stylesheets/custom.css.scss:27)):
+    2: <html>
+    3: <head>
+    4:   <title>Pinmazing</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/custom.css.scss:27
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__712915911_52095024'
+
+
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/row/Ruby21/lib/ruby/gems/2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (110.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 23:15:51 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 3265ms (Views: 3263.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 23:15:55 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 23:15:55 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 23:15:55 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 23:15:56 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 23:15:56 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-30 23:15:56 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-30 23:15:57 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-30 23:15:57 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-30 23:15:57 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-30 23:15:57 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-30 23:15:57 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-30 23:15:57 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-30 23:15:57 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-30 23:15:58 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-30 23:15:58 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-30 23:15:58 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-30 23:15:58 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-30 23:15:58 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 23:15:58 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 23:15:58 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 23:15:58 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 23:15:58 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 23:15:58 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 23:25:36 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 3200ms (Views: 3199.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 23:25:39 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 23:25:40 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-30 23:25:40 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 23:25:40 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-30 23:25:40 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 23:25:40 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 23:25:40 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-30 23:25:40 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-30 23:25:41 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-30 23:25:41 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-30 23:25:41 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-30 23:25:41 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-30 23:25:41 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-30 23:25:42 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-30 23:25:42 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-30 23:25:42 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-30 23:25:42 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-30 23:25:42 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 23:25:42 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 23:25:42 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 23:25:42 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 23:25:42 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 23:25:42 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 23:29:44 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 3838ms (Views: 3819.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 23:29:48 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 23:29:49 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 23:29:49 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 23:29:49 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-30 23:29:50 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 23:29:50 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-30 23:29:51 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-30 23:29:51 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-30 23:29:51 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-30 23:29:51 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-30 23:29:51 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-30 23:29:52 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-30 23:29:52 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-30 23:29:52 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-30 23:29:52 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-30 23:29:52 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-30 23:29:52 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-30 23:29:52 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 23:29:52 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 23:29:52 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 23:29:52 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 23:29:52 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 23:29:52 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 23:33:06 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 3338ms (Views: 3337.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 23:33:09 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 23:33:10 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:10 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:10 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 23:33:10 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 23:33:10 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:10 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:10 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:10 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:11 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:11 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:11 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:11 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:11 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:11 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:11 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:12 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:12 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:12 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:12 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:12 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:12 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:12 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 23:33:25 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 3205ms (Views: 3204.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 23:33:29 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 23:33:29 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:29 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:29 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 23:33:29 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 23:33:29 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:29 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:29 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:29 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:29 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:30 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:30 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:30 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:30 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:30 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:30 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:30 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:30 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:30 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:30 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:30 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 23:33:31 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 23:34:34 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 3263ms (Views: 3262.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 23:34:38 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-30 23:34:38 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 23:34:38 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 23:34:38 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 23:34:38 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 23:34:38 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-30 23:34:39 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-30 23:34:39 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-30 23:34:39 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-30 23:34:39 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-30 23:34:39 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-30 23:34:40 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-30 23:34:40 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-30 23:34:40 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-30 23:34:40 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-30 23:34:41 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-30 23:34:41 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-30 23:34:41 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 23:34:41 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 23:34:41 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 23:34:41 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 23:34:41 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 23:34:41 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 23:36:56 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 3365ms (Views: 3364.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 23:36:59 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 23:37:00 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 23:37:00 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-30 23:37:00 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 23:37:00 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 23:37:00 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-30 23:37:00 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-30 23:37:01 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-30 23:37:01 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-30 23:37:01 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-30 23:37:01 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-30 23:37:01 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-30 23:37:01 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-30 23:37:01 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-30 23:37:01 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-30 23:37:01 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-30 23:37:02 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-30 23:37:02 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 23:37:02 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 23:37:02 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 23:37:02 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 23:37:02 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 23:37:02 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 23:38:08 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 3244ms (Views: 3243.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 23:38:11 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:11 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 23:38:11 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 23:38:11 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:12 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 23:38:12 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:12 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:12 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:12 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:12 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:12 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:13 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:13 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:13 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:14 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:14 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:14 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:14 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:14 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:14 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:14 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:14 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:14 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 23:38:39 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 172ms (Views: 171.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:40 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 23:38:40 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:40 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 23:38:40 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 23:38:41 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 23:38:41 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:41 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:41 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:41 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:41 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:41 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:41 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:41 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:41 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:41 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:41 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:42 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:42 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:42 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:42 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:42 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:42 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 23:38:42 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 23:40:37 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 226ms (Views: 225.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 23:40:38 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-30 23:40:38 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 23:40:38 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 23:40:38 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 23:40:38 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 23:40:38 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-30 23:40:39 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-30 23:40:39 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-30 23:40:39 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-30 23:40:39 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-30 23:40:39 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-30 23:40:39 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-30 23:40:39 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-30 23:40:39 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-30 23:40:39 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-30 23:40:39 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-30 23:40:39 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-30 23:40:39 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 23:40:39 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 23:40:39 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 23:40:39 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 23:40:40 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 23:40:40 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-30 23:41:30 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 298ms (Views: 297.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-30 23:41:31 +0000
+
+
+Started GET "/assets/sites.css?body=1" for 127.0.0.1 at 2014-11-30 23:41:31 +0000
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-30 23:41:32 +0000
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-30 23:41:32 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-30 23:41:32 +0000
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-11-30 23:41:32 +0000
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-30 23:41:32 +0000
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-30 23:41:32 +0000
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-30 23:41:32 +0000
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-30 23:41:32 +0000
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-30 23:41:32 +0000
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-30 23:41:32 +0000
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-30 23:41:33 +0000
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-30 23:41:33 +0000
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-30 23:41:33 +0000
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-30 23:41:33 +0000
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-30 23:41:33 +0000
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-30 23:41:33 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-30 23:41:33 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-30 23:41:33 +0000
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-11-30 23:41:33 +0000
+
+
+Started GET "/assets/sites.js?body=1" for 127.0.0.1 at 2014-11-30 23:41:33 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-30 23:41:33 +0000
