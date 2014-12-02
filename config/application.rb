@@ -6,8 +6,7 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
 
-# Explanation here: https://devcenter.heroku.com/articles/rails-asset-pipeline#troubleshooting
-config.assets.initialize_on_precompile = false
+
 
 module Pinmazing
   class Application < Rails::Application
@@ -23,4 +22,8 @@ module Pinmazing
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
   end
+
+  # Explanation here: https://devcenter.heroku.com/articles/rails-asset-pipeline#troubleshooting
+config.assets.initialize_on_precompile = false
+
 end
