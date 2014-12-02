@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
@@ -27,17 +29,32 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+
+
+
+# devise for user logins
+# gem 'devise'
+
+
+
+#Bootstrap
+gem 'bootstrap-sass', '~> 3.3.1'
+
+# Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website.
 gem 'autoprefixer-rails'
 
-# SQL for development 
+
+# Uses SQL for database on local machine, during development
 group :development, :test do
 	gem 'sqlite3' end
 
-# Postgres for Heroku in production
-# also 12factor makes app run better with Heroku
+# Uses Postgres as the database so it works when deployed to Heroku
+
 group :production do
 	gem 'pg'
 	gem 'rails_12factor' end
+
+
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
