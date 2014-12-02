@@ -33,7 +33,8 @@ $brand-primary:			#c0392b;
 	z-index: 1;
 }
 
-/*make signup button red*/
+/* helper class to make signup button red*/
+
 /*#bs-example-navbar-collapse-1 ul li:nth-child(2){
 	background:#962D22;*/
 .red {
@@ -41,6 +42,7 @@ $brand-primary:			#c0392b;
 	color:#c0392b !important;
 
 }
+
 
 /*//helper class to center stuff*/
 .center { text-align: center; }
