@@ -6,6 +6,8 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
 
+# Explanation here: https://devcenter.heroku.com/articles/rails-asset-pipeline#troubleshooting
+config.assets.initialize_on_precompile = false
 
 module Pinmazing
   class Application < Rails::Application

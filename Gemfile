@@ -30,7 +30,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 # Rake is a Make-like program implemented in Ruby. 
-gem 'rake', '~> 10.4.1'
+# gem 'rake', '~> 10.4.1'
 
 
 # devise for user logins
