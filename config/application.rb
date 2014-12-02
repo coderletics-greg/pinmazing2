@@ -26,4 +26,6 @@ module Pinmazing
   # Explanation here: https://devcenter.heroku.com/articles/rails-asset-pipeline#troubleshooting
 config.assets.initialize_on_precompile = false
 
+config.serve_static_assets = true
+
 end
